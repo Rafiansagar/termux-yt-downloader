@@ -98,3 +98,30 @@ chmod +x ~/bin/
 ```
 yt
 ```
+# Audio
+1.
+```
+nano ~/bin/yta
+```
+2.
+```Sh
+#!/data/data/com.termux/files/usr/bin/bash
+
+echo "Enter YouTube URL:"
+read URL
+
+DOWNLOAD_DIR=~/Termux\ Download/Audio
+
+yt-dlp -x --audio-format mp3 -o "$DOWNLOAD_DIR/%(title)s.%(ext)s" "$URL"
+
+echo "Audio download finished! Saved to $DOWNLOAD_DIR"
+```
+3.
+```
+chmod +x ~/bin/yta
+```
+4. Run
+```
+yta
+```
+
