@@ -50,7 +50,7 @@ if [ -z "$URL" ]; then
   exit 1
 fi
 
-DOWNLOAD_DIR="$HOME/storage/shared/Termux\ Download/Video"
+DOWNLOAD_DIR="$HOME/storage/shared/Termux Download/Video"
 
 mkdir -p "$DOWNLOAD_DIR"
 
@@ -111,7 +111,7 @@ nano ~/bin/yta
 echo "Enter YouTube URL:"
 read URL
 
-DOWNLOAD_DIR=~/Termux\ Download/Audio
+DOWNLOAD_DIR="$HOME/storage/shared/Termux Download/Audio"
 
 yt-dlp -x --audio-format mp3 -o "$DOWNLOAD_DIR/%(title)s.%(ext)s" "$URL"
 
