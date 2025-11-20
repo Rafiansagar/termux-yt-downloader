@@ -38,7 +38,7 @@ nano ~/bin/yt
 ```Sh
 #!/data/data/com.termux/files/usr/bin/bash
 # yt - interactive video downloader (480p -> 8K)
-# Saves to: ~/storage/shared/Termux Download
+# Saves to: ~/storage/shared/Termux Download/Video
 
 set -e
 
