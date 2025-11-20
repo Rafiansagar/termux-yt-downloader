@@ -2,7 +2,7 @@
 # Video
 
 1. Full Storage Access
-```
+```bash
 termux-setup-storage
 ```
 2.
