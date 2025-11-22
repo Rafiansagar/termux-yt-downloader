@@ -93,7 +93,7 @@ echo "Download finished! File saved to: $DOWNLOAD_DIR"
 ```
 8.
 ```
-chmod +x ~/bin/
+chmod +x ~/bin/*
 ```
 9. Run
 ```
